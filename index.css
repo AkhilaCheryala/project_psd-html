@@ -1,0 +1,233 @@
+body{
+    margin: 0 auto;
+}
+.main-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.slideg img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.firstg,.secondg,.thirdg{
+    position: relative;
+}
+.sub-first-nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.sub-second-nav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.profile-part{
+    display: flex;
+    flex-direction: row;
+}
+.sub-first-nav,.sub-second-nav{
+    position: absolute;
+    top: 1rem;
+    margin: 0 10rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 35rem;
+}
+.sub-second-nav{
+    position: absolute;
+    top: -2.8rem;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+  margin-right: 1rem;
+  color: white;
+  font-size: 18px;
+   
+}
+.main-text{
+    position: absolute;
+    top: 10rem;
+    left: 20%;
+    font-size: 100px;
+}
+.part-1,.part-3{
+    color: rgb(43, 42, 42);
+}
+.part-2,.part-4{
+    color: rgb(2, 39, 70);
+}
+.secondg{
+    margin-top: 3rem;
+}
+.p-text{
+    position: absolute;
+    top: 1rem;
+    margin: 2rem;
+}
+.highlighter{
+    font-size: 100px;
+    color: grey;
+    margin:0;
+    float: left;
+}
+.header{
+    font-size: 50px;
+    color: grey;
+}
+.picture_slider{
+    position:absolute;
+    flex-direction: row;
+    top: 60%;
+    width: 95%;
+    height: 200px;
+    background-color: navy;
+    padding: 2rem;
+}
+.slides{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.slides input{
+    display: none;
+}
+.slide img{
+    width: 260px;
+    height: 150px;;
+    object-fit: cover;
+}
+.navigation{
+    position: absolute;
+    height: 3px;
+   top: 13rem;
+   z-index: 1000;
+   left: 40rem;
+   grid-area: 5px;
+
+   
+    
+}
+.manual-btn {
+    border: 1.5px solid rgb(30, 30, 30);
+    background-color: beige;
+    padding: 2px;
+    margin: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+.manual-btn:hover {
+    background: rgb(61, 59, 59);
+}
+
+#radio-1:checked~.first {
+    width: 300px;
+    height: 300px;
+}
+
+#radio-2:checked~.second {
+    width: 300px;
+    height: 300px;
+}
+
+#radio-3:checked~.third {
+    width: 300px;
+    height: 300px;
+}
+#radio-4:checked~.fourth {
+    width: 300px;
+    height: 300px;
+}
+.slideg-3{
+    margin-top: 10rem;
+    position: relative;
+}
+.p-text-2{
+    position: absolute;
+    top: -7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.highlighter-1{
+    font-size: 100px;
+    margin-top: 0;
+    float: left;
+    color: grey;
+}
+.header-2{
+    font-size: 50px;
+   
+    color: grey;
+}
+.nav-bar{
+    position: absolute;
+    top: 1rem;
+ background-color: navy;
+ padding: 1rem;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+ gap: 5rem;
+}
+.nav-bar ul{
+    display: none;
+}
+.schedule{
+    padding: 30px;
+}
+schedule {
+    display: none;
+}
+
+.nav-bar li:hover .schedule {
+    display: block;
+}
+.nav-bar a{
+    color: white;
+}
+
+.schedule-popup {
+    display: none;
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.nav-bar li:hover.schedule-popup {
+    display: block;
+}
+.profile-part-3{
+    position: absolute;
+    bottom: 1rem;
+    background-color: navy;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-part-3 img{
+    margin-left: 3rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.copyrights{
+    margin-left: 40rem;
+}
